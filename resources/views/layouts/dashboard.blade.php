@@ -70,7 +70,7 @@
         
         /* New color scheme */
         .bg-dark {
-            background-color: #2c3e50 !important;
+            background-color: #e67e22 !important;
         }
         
         .btn-primary {
@@ -104,7 +104,7 @@
         }
         
         .list-group-item.active, .list-group-item:hover {
-            background-color: #34495e !important;
+            background-color: #f1c40f!important;
         }
     </style>
 </head>
@@ -112,16 +112,17 @@
     <div class="d-flex" id="wrapper">
         <!-- Sidebar -->
         <div class="bg-dark border-right" id="sidebar-wrapper">
-            <div class="sidebar-heading d-flex align-items-center">
-                <img src="https://images.unsplash.com/photo-1535941339077-2dd1c7963098?w=400&h=400" alt="Safari Logo" class="safari-logo me-2">
-                <span class="text-white">Kenya Tours</span>
+            <div class="sidebar-heading d-flex align-items-center py-3">
+                <div class="safari-logo-container me-2 d-flex align-items-center justify-content-center">
+                    <i class="fas fa-lion fa-2x text-white"></i>
+                </div>
+                <div class="site-title">
+                    <span class="text-white fw-bold">Kenya</span>
+                    <span class="text-warning">Tours</span>
+                </div>
             </div>
             
-            <div class="sidebar-profile">
-                <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&h=150" alt="Admin Profile">
-                <h6 class="text-white mt-2 mb-0">Safari Admin</h6>
-                <small class="text-light">Tour Manager</small>
-            </div>
+            
             
             <div class="list-group list-group-flush">
                 <a href="{{ route('dashboard') }}" class="list-group-item list-group-item-action bg-dark text-white {{ request()->routeIs('dashboard') ? 'active' : '' }}">
