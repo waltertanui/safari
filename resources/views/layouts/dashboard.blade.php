@@ -134,9 +134,7 @@
                 <a href="{{ route('destinations.index') }}" class="list-group-item list-group-item-action bg-dark text-white {{ request()->routeIs('destinations.*') ? 'active' : '' }}">
                     <i class="fas fa-map-marker-alt me-2"></i> Destinations
                 </a>
-                <a href="#" class="list-group-item list-group-item-action bg-dark text-white">
-                    <i class="fas fa-umbrella-beach me-2"></i> Beach Getaways
-                </a>
+               
                 <a href="{{ route('bookings.index') }}" class="list-group-item list-group-item-action bg-dark text-white {{ request()->routeIs('bookings.*') ? 'active' : '' }}">
                     <i class="fas fa-calendar-check me-2"></i> Book Now
                 </a>
@@ -192,6 +190,13 @@
             e.preventDefault();
             $("#wrapper").toggleClass("toggled");
         });
+    </script>
+    <!-- Add in head section -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("M0siBmV_02QwB81j6"); // Replace with your actual public key
+        })();
     </script>
 </body>
 </html>
