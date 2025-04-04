@@ -88,7 +88,7 @@
                                 <span class="text-primary fw-bold">From $299</span>
                                 <small class="text-muted d-block">per person</small>
                             </div>
-                            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#tourModal" data-tour="masai-mara">View Details</a>
+                            <a href="{{ route('bookings.index') }}" class="btn btn-primary">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -125,7 +125,7 @@
                                 <span class="text-primary fw-bold">From $249</span>
                                 <small class="text-muted d-block">per person</small>
                             </div>
-                            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#tourModal" data-tour="amboseli">View Details</a>
+                            <a href="{{ route('bookings.index') }}" class="btn btn-primary">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -161,7 +161,7 @@
                                 <span class="text-primary fw-bold">From $279</span>
                                 <small class="text-muted d-block">per person</small>
                             </div>
-                            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#tourModal" data-tour="tsavo">View Details</a>
+                            <a href="{{ route('bookings.index') }}" class="btn btn-primary">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -198,7 +198,7 @@
                                 <span class="text-primary fw-bold">From $199</span>
                                 <small class="text-muted d-block">per person</small>
                             </div>
-                            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#tourModal" data-tour="lake-nakuru">View Details</a>
+                            <a href="{{ route('bookings.index') }}" class="btn btn-primary">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -234,7 +234,7 @@
                                 <span class="text-primary fw-bold">From $349</span>
                                 <small class="text-muted d-block">per person</small>
                             </div>
-                            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#tourModal" data-tour="diani">View Details</a>
+                            <a href="{{ route('bookings.index') }}" class="btn btn-primary">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -271,7 +271,7 @@
                                 <span class="text-primary fw-bold">From $329</span>
                                 <small class="text-muted d-block">per person</small>
                             </div>
-                            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#tourModal" data-tour="lamu">View Details</a>
+                            <a href="{{ route('bookings.index') }}" class="btn btn-primary">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -473,7 +473,10 @@
                                 <h6 class="mb-0">${tour.name}</h6>
                                 <p class="mb-0 opacity-75">Duration: ${tour.duration}</p>
                             </div>
-                            <small class="text-primary fw-bold">${tour.price}</small>
+                            <div class="d-flex flex-column align-items-end gap-2">
+                                <small class="text-primary fw-bold">${tour.price}</small>
+                                <a href="{{ route('bookings.index') }}" class="btn btn-sm btn-primary">Book Now</a>
+                            </div>
                         </div>
                     `;
                     
@@ -556,7 +559,7 @@
                             <div class="mt-auto">
                                 <div class="d-flex justify-content-between align-items-center">
                                     <span class="text-primary fw-bold">From $899</span>
-                                    <a href="#" class="btn btn-sm btn-primary">View Package</a>
+                                    <a href="#" class="btn btn-sm btn-primary">Book Package</a>
                                 </div>
                             </div>
                         </div>
@@ -580,7 +583,7 @@
                             <div class="mt-auto">
                                 <div class="d-flex justify-content-between align-items-center">
                                     <span class="text-primary fw-bold">From $649</span>
-                                    <a href="#" class="btn btn-sm btn-primary">View Package</a>
+                                    <a href="#" class="btn btn-sm btn-primary">Book Package</a>
                                 </div>
                             </div>
                         </div>

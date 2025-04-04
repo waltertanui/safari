@@ -37,7 +37,10 @@
                                         <li><i class="fas fa-check text-primary me-2"></i>Maasai Culture</li>
                                         <li><i class="fas fa-check text-primary me-2"></i>Hot Air Balloon Safaris</li>
                                     </ul>
-                                    <a href="#" class="btn btn-primary">Explore More</a>
+                                    <div class="d-flex gap-2">
+                                        <a href="#" class="btn btn-primary">Explore More</a>
+                                        <a href="{{ route('bookings.index') }}" class="btn btn-outline-primary">Book Now</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -60,7 +63,10 @@
                                         <li><i class="fas fa-check text-primary me-2"></i>Mt. Kilimanjaro Views</li>
                                         <li><i class="fas fa-check text-primary me-2"></i>Bird Watching</li>
                                     </ul>
-                                    <a href="#" class="btn btn-primary">Explore More</a>
+                                    <div class="d-flex gap-2">
+                                        <a href="#" class="btn btn-primary">Explore More</a>
+                                        <a href="{{ route('bookings.index') }}" class="btn btn-outline-primary">Book Now</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -83,7 +89,10 @@
                                         <li><i class="fas fa-check text-primary me-2"></i>Bird Watching</li>
                                         <li><i class="fas fa-check text-primary me-2"></i>Game Drives</li>
                                     </ul>
-                                    <a href="#" class="btn btn-primary">Explore More</a>
+                                    <div class="d-flex gap-2">
+                                        <a href="#" class="btn btn-primary">Explore More</a>
+                                        <a href="{{ route('bookings.index') }}" class="btn btn-outline-primary">Book Now</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -106,7 +115,10 @@
                                         <li><i class="fas fa-check text-primary me-2"></i>Volcanic Landscapes</li>
                                         <li><i class="fas fa-check text-primary me-2"></i>Mzima Springs</li>
                                     </ul>
-                                    <a href="#" class="btn btn-primary">Explore More</a>
+                                    <div class="d-flex gap-2">
+                                        <a href="#" class="btn btn-primary">Explore More</a>
+                                        <a href="{{ route('bookings.index') }}" class="btn btn-outline-primary">Book Now</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -134,7 +146,10 @@
                                         <li><i class="fas fa-check text-primary me-2"></i>Water Sports</li>
                                         <li><i class="fas fa-check text-primary me-2"></i>Coral Reefs</li>
                                     </ul>
-                                    <a href="#" class="btn btn-primary">Explore More</a>
+                                    <div class="d-flex gap-2">
+                                        <a href="#" class="btn btn-primary">Explore More</a>
+                                        <a href="{{ route('bookings.index') }}" class="btn btn-outline-primary">Book Now</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -157,7 +172,10 @@
                                         <li><i class="fas fa-check text-primary me-2"></i>Turtle Watching</li>
                                         <li><i class="fas fa-check text-primary me-2"></i>Snorkeling</li>
                                     </ul>
-                                    <a href="#" class="btn btn-primary">Explore More</a>
+                                    <div class="d-flex gap-2">
+                                        <a href="#" class="btn btn-primary">Explore More</a>
+                                        <a href="{{ route('bookings.index') }}" class="btn btn-outline-primary">Book Now</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -180,7 +198,10 @@
                                         <li><i class="fas fa-check text-primary me-2"></i>Dhow Sailing</li>
                                         <li><i class="fas fa-check text-primary me-2"></i>Cultural Experience</li>
                                     </ul>
-                                    <a href="#" class="btn btn-primary">Explore More</a>
+                                    <div class="d-flex gap-2">
+                                        <a href="#" class="btn btn-primary">Explore More</a>
+                                        <a href="{{ route('bookings.index') }}" class="btn btn-outline-primary">Book Now</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -203,7 +224,10 @@
                                         <li><i class="fas fa-check text-primary me-2"></i>Marine National Park</li>
                                         <li><i class="fas fa-check text-primary me-2"></i>Deep Sea Fishing</li>
                                     </ul>
-                                    <a href="#" class="btn btn-primary">Explore More</a>
+                                    <div class="d-flex gap-2">
+                                        <a href="#" class="btn btn-primary">Explore More</a>
+                                        <a href="{{ route('bookings.index') }}" class="btn btn-outline-primary">Book Now</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>

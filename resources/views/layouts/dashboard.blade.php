@@ -12,6 +12,7 @@
         body {
             font-family: 'Montserrat', sans-serif;
             background-color: #f8f9fc;
+            overflow-x: hidden; /* Prevent horizontal scroll */
         }
         
         .hero-section {
@@ -105,6 +106,63 @@
         
         .list-group-item.active, .list-group-item:hover {
             background-color: #f1c40f!important;
+        }
+        
+        /* Updated sidebar and navbar styles */
+        #wrapper {
+            display: flex;
+            min-height: 100vh;
+        }
+        
+        #sidebar-wrapper {
+            min-height: 100vh;
+            position: fixed;
+            width: 250px;
+            height: 100vh;
+            overflow-y: auto;
+            z-index: 1000;
+        }
+        
+        #page-content-wrapper {
+            margin-left: 250px;
+            width: calc(100% - 250px);
+            min-width: 0;
+        }
+        
+        .navbar {
+            position: sticky;
+            top: 0;
+            z-index: 999;
+            background: white;
+        }
+        
+        .toggled #sidebar-wrapper {
+            margin-left: -250px;
+        }
+        
+        .toggled #page-content-wrapper {
+            margin-left: 0;
+            width: 100%;
+        }
+        
+        @media (max-width: 768px) {
+            #sidebar-wrapper {
+                margin-left: -250px;
+            }
+            
+            #page-content-wrapper {
+                margin-left: 0;
+                width: 100%;
+            }
+            
+            #wrapper.toggled #sidebar-wrapper {
+                margin-left: 0;
+            }
+            
+            #wrapper.toggled #page-content-wrapper {
+                margin-left: 250px;
+                width: calc(100% - 250px);
+            }
         }
     </style>
 </head>
